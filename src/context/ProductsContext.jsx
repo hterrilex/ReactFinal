@@ -1,4 +1,3 @@
-import React, { createContext, useState, useContext, useEffect } from 'react';
 
 
 export const ProductsContext = createContext();
@@ -10,6 +9,7 @@ export const ProductsProvider = ({ children }) => {
 
   // Función de validación en el contexto
   const validarProducto = (producto) => {
+import React, { createContext, useState, useContext, useEffect } from 'react';
     const errores = {};
 
     // titulo
@@ -62,7 +62,7 @@ export const ProductsProvider = ({ children }) => {
   useEffect(() => {
     const cargarProductos = async () => {
       try {
-        const respuesta = await fetch('https://69237c223ad095fb8470b089.mockapi.io/api/v1/producto');
+        const respuesta = await fetch(https://693c94a5b762a4f15c40d7f9.mockapi.io/apidiscos/disco');
         if (!respuesta.ok) throw new Error('Error al cargar productos');
         const datos = await respuesta.json();
         setProductos(datos);
@@ -78,7 +78,7 @@ export const ProductsProvider = ({ children }) => {
 
    const agregarProducto = async (nuevoProducto) => {
      try {
-     const respuesta = await fetch('https://69237c223ad095fb8470b089.mockapi.io/api/v1/producto', {
+     const respuesta = await fetch(https://693c94a5b762a4f15c40d7f9.mockapi.io/apidiscos/disco'), {
        method: 'POST',
       headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(nuevoProducto),
@@ -96,7 +96,7 @@ export const ProductsProvider = ({ children }) => {
 
   const editarProducto = async (productoActualizado) => {
     try {
-      const respuesta = await fetch(`https://69237c223ad095fb8470b089.mockapi.io/api/v1/producto/${productoActualizado.id}`, {
+      const respuesta = await fetch(`https://693c94a5b762a4f15c40d7f9.mockapi.io/apidiscos/disco/${productoActualizado.id}`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(productoActualizado),
