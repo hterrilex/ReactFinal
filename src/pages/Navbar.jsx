@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart, faSignOutAlt } from '@fortawesome/free-solid-svg-icons'; 
 
 // Importamos la imagen del logo
-import Logo_Atalay from '../assets/src/logo.png'; 
+import logo from '../assets/src/logo.png'; 
 
 
 function Navbar() {
@@ -30,7 +30,7 @@ function Navbar() {
         
         {/* 1. IZQUIERDA: LOGO */}
         <Link to="/" className="navbar-logo-link">
-          <img src={Logo_Atalay} alt="Logo ATALAY" className="navbar-logo" />
+          <img src={logo} alt="Logo" className="navbar-logo" />
         </Link>
 
         {/* 2. CENTRO: LINKS PRINCIPALES */}
