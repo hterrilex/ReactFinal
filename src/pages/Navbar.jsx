@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart, faSignOutAlt } from '@fortawesome/free-solid-svg-icons'; 
 
 // Importamos la imagen del logo
-import Logo_Atalay from '../assets/Logo_ATALAY.png'; 
+import Logo_Atalay from '../assets/src/logo.png'; 
 
 
 function Navbar() {
