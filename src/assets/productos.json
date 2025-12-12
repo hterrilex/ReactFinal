@@ -1,0 +1,102 @@
+[
+  {
+    "titulo": "Artaud",
+    "autor": "Pescado Rabioso",
+    "avatar": "https://upload.wikimedia.org/wikipedia/en/1/11/Pescado_Rabioso_-_Artaud.png",
+    "descripcion": "Considerado uno de los mejores discos del rock argentino, una obra clave de Luis Alberto Spinetta con sonido experimental y poesía personal.",
+    "categoria": "Rock Psicodélico",
+    "stock": 22,
+    "precio": 23000,
+    "id": "1"
+  },
+  {
+    "titulo": "Oktubre",
+    "autor": "Patricio Rey y sus Redonditos de Ricota",
+    "avatar": "https://upload.wikimedia.org/wikipedia/en/5/55/Oktubre_Redondos.jpg",
+    "descripcion": "Un clásico absoluto de los Redondos, con sonido post-punk y letras cargadas de simbolismo que marcaron a generaciones.",
+    "categoria": "Rock Alternativo",
+    "stock": 25,
+    "precio": 46990,
+    "id": "2"
+  },
+  {
+    "titulo": "Clics Modernos",
+    "autor": "Charly García",
+    "avatar": "https://upload.wikimedia.org/wikipedia/en/7/75/Clics_Modernos.png",
+    "descripcion": "Obra revolucionaria que modernizó el sonido del rock argentino con sintetizadores, samplers y una estética neoyorquina.",
+    "categoria": "Rock Pop / New Wave",
+    "stock": 50,
+    "precio": 33000,
+    "id": "3"
+  },
+  {
+    "titulo": "Giros",
+    "autor": "Fito Páez",
+    "avatar": "https://upload.wikimedia.org/wikipedia/en/e/e6/Fito_Paez_-_Giros.jpg",
+    "descripcion": "El disco que consolidó a Fito Páez con clásicos como 'Yo vengo a ofrecer mi corazón'. Un álbum emotivo y urbano.",
+    "categoria": "Rock Pop",
+    "stock": 14,
+    "precio": 30000,
+    "id": "4"
+  },
+  {
+    "titulo": "El Amor Después del Amor",
+    "autor": "Fito Páez",
+    "avatar": "https://upload.wikimedia.org/wikipedia/en/0/07/El_Amor_Despues_del_Amor.png",
+    "descripcion": "El álbum más vendido en la historia del rock argentino, lleno de himnos y colaboraciones icónicas.",
+    "categoria": "Rock Pop",
+    "stock": 10,
+    "precio": 34500,
+    "id": "5"
+  },
+  {
+    "titulo": "Canción Animal",
+    "autor": "Soda Stereo",
+    "avatar": "https://upload.wikimedia.org/wikipedia/en/8/8a/Cancion_Animal_Soda_Stereo.jpg",
+    "descripcion": "Uno de los discos más influyentes de Soda Stereo y del rock latinoamericano, con un sonido poderoso y crudo.",
+    "categoria": "Rock Alternativo",
+    "stock": 15,
+    "precio": 16800,
+    "id": "6"
+  },
+  {
+    "titulo": "Un Baión para el Ojo Idiota",
+    "autor": "Patricio Rey y sus Redonditos de Ricota",
+    "avatar": "https://upload.wikimedia.org/wikipedia/en/d/d0/Baion_para_el_ojo_idiota.jpg",
+    "descripcion": "Un disco emblemático de los Redondos con una mezcla única de poesía oscura y rock poderoso.",
+    "categoria": "Rock Alternativo",
+    "stock": 18,
+    "precio": 27700,
+    "id": "7"
+  },
+  {
+    "titulo": "Signos",
+    "autor": "Soda Stereo",
+    "avatar": "https://upload.wikimedia.org/wikipedia/en/0/0a/Signos_Soda_Stereo.jpg",
+    "descripcion": "Un álbum clave en la evolución estética de Soda, con un sonido oscuro y minimalista.",
+    "categoria": "Rock / New Wave",
+    "stock": 12,
+    "precio": 49900,
+    "id": "8"
+  },
+  {
+    "titulo": "Bocanada",
+    "autor": "Gustavo Cerati",
+    "avatar": "https://upload.wikimedia.org/wikipedia/en/e/e9/Bocanada_Gustavo_Cerati.jpg",
+    "descripcion": "Una obra maestra como solista de Cerati, con mezcla de electrónica, orquestación y texturas atmosféricas.",
+    "categoria": "Rock Electrónico",
+    "stock": 17,
+    "precio": 49900,
+    "id": "9"
+  },
+  {
+    "titulo": "La Grasa de las Capitales",
+    "autor": "Seru Girán",
+    "avatar": "https://upload.wikimedia.org/wikipedia/en/6/67/La_grasa_de_las_capitales_seru_giran.jpg",
+    "descripcion": "Disco fundamental de Seru Girán con fuerte crítica social y un sonido sofisticado para su época.",
+    "categoria": "Rock Progresivo",
+    "stock": 15,
+    "precio": 41000,
+    "id": "10"
+  }
+]

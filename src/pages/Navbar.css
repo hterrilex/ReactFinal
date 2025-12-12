@@ -1,0 +1,163 @@
+
+/* VARIABLES DE COLOR */
+:root {
+    --color-navbar-bg: #b22222;
+    --color-text-light: white;
+    --color-logout-bg: white;
+}
+
+/* -------------------
+   ESTILOS PRINCIPALES
+   ------------------- */
+
+.navbar {
+    /* Color de fondo rojo (similar a tu código) */
+    background-color: var(--color-navbar-bg);
+    padding: 12px 20px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); /* Añadido un shadow sutil */
+}
+
+/* Contenedor Flex principal para distribuir IZQ, CENTRO, DER */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Limita el ancho del contenido si es necesario */
+    margin: 0 auto;
+}
+
+/* -------------------
+   1. LOGO (IZQUIERDA)
+   ------------------- */
+
+.navbar-logo {
+    height: 40px; /* Altura estándar para el logo, ajusta según el tamaño de tu imagen */
+    width: auto;
+    display: block; /* Asegura que la imagen se comporte correctamente */
+}
+
+/* -------------------
+   2. LINKS (CENTRO)
+   ------------------- */
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    /* Distribuye los links de forma uniforme en el centro */
+    justify-content: center; 
+    gap: 30px; /* Espacio entre los links */
+    margin: 0;
+    padding: 0;
+    /* Esto es clave para centrar y que ocupe el espacio entre logo y auth */
+    flex-grow: 1; 
+}
+
+.navbar-links li {
+    display: inline-block;
+}
+
+.nav-link {
+    color: var(--color-text-light);
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.2s, opacity 0.2s;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* -------------------
+   3. AUTH (DERECHA)
+   ------------------- */
+
+.navbar-auth {
+    /* Asegura que este contenedor no se encoja para mantener el espacio a la derecha */
+    min-width: 150px; 
+    text-align: right;
+}
+
+.auth-user-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user-greeting {
+    color: var(--color-text-light);
+    font-size: 1rem;
+}
+
+.nav-dashboard {
+    /* Estilo específico para el botón de Dashboard */
+    font-weight: 600;
+}
+
+/* Botón Cerrar Sesión */
+.btn-logout {
+    background: var(--color-logout-bg);
+    color: var(--color-navbar-bg); /* Texto rojo */
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.btn-logout:hover {
+    background-color: #eee;
+}
+
+
+/* Carrito */
+
+.nav-carrito {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-auth {
+    display: flex;
+    align-items: center;   /* <-- CLAVE: alinea verticalmente */
+    gap: 20px;            /* separación entre carrito e iniciar sesión */
+}
+
+
+/* Contenedor del ícono */
+.carrito-icon-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+/* Ícono de carrito */
+.icono-carrito {
+    font-size: 22px;
+    color: white;
+}
+
+/* Badge / contador */
+.cart-item-count {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #556B2F;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+

@@ -1,0 +1,109 @@
+
+
+/* CENTRADO GENERAL */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background: #f7f7f7;
+  padding: 20px;
+}
+
+/* CAJA */
+.login-box {
+  background: white;
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* TÍTULO */
+.login-box h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* FORMULARIO */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* INPUTS */
+.login-form input {
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  transition: 0.2s ease;
+}
+
+.login-form input:focus {
+  border-color: #556b2f;
+  box-shadow: 0 0 5px rgba(0, 119, 255, 0.3);
+}
+
+/* BOTONES */
+.btn-primary,
+.btn-secondary {
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.btn-primary {
+  background: #556b2f;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #00cc44;
+}
+
+.btn-secondary {
+  background: #ddd;
+}
+
+.btn-secondary:hover {
+  background: #c2c2c2;
+}
+
+
+
+/* CSS para alinear Usuario y Admin lado a lado */
+.credenciales-contenedor {
+    /* CLAVE: Habilita Flexbox para colocar los hijos en una fila */
+    display: flex;
+    /* Distribuye el espacio entre los dos contenedores */
+    justify-content: space-between; 
+    /* Asegura que el contenedor ocupe todo el ancho */
+    width: 100%; 
+    padding: 10px 0; /* Espacio vertical */
+}
+
+.credenciales-izquierda {
+    /* Alineación de texto por defecto (izquierda) */
+    text-align: left;
+    /* Opcional: Ancho para asegurar que ocupen espacio */
+    flex: 1; 
+}
+
+.credenciales-derecha {
+    /* Alineación de texto a la derecha */
+    text-align: right; 
+    /* Opcional: Ancho para asegurar que ocupen espacio */
+    flex: 1;
+}
+
+/* Opcional: Estilo para el título */
+.credenciales-titulo {
+    margin-bottom: 0; /* Quita el espacio por defecto */
+}

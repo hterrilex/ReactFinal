@@ -1,0 +1,97 @@
+/* ---- CONTENEDOR GENERAL ---- */
+.serv-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/* ---- TÍTULO ---- */
+.serv-title {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 50px;
+  font-weight: 700;
+  color: #000000;
+  letter-spacing: 1px;
+}
+
+/* ---- GRID DE CARDS ---- */
+.serv-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* ---- CARD ---- */
+.serv-card {
+  background: #ffffff;
+  padding: 30px 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border 0.25s ease;
+  border: 2px solid transparent;
+}
+
+.serv-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border: 2px solid #556b2f; /* verde oliva */
+}
+
+/* ---- ÍCONOS ---- */
+.serv-card-icon {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 15px;
+}
+
+/* ---- TÍTULO DE CARD ---- */
+.serv-card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #b22222; /* rojo */
+  margin-bottom: 10px;
+}
+
+/* ---- TEXTO ---- */
+.serv-card p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.5;
+}
+
+/* ---- BOTÓN VOLVER ---- */
+.btn-volver2-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.btn-volver2 {
+  background: #556b2f; /* verde oliva */
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.btn-volver2:hover {
+  background: #556b2f; /* verde */
+}
+
+/* ---- ANIMACIÓN DE ENTRADA ---- */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

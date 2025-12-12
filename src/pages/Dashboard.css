@@ -1,0 +1,83 @@
+/* ---- CONTENEDOR GENERAL ---- */
+.dash-container {
+  padding: 20px;
+  min-height: 60vh;
+  background: #fdfdfd;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ---- TÍTULO ---- */
+.dash-title {
+  color: #000000; /* negro */
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* ---- CAJA PRINCIPAL ---- */
+.dash-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* ---- TOKEN ---- */
+.dash-token {
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 10px 0;
+  font-size: 14px;
+  word-break: break-word;
+}
+
+/* ---- ACCIONES ---- */
+.dash-actions h3 {
+  color: #556b2f; /* verde oliva */
+  margin-bottom: 10px;
+}
+
+.dash-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+/* ---- BOTONES ---- */
+.btn-red,
+.btn-green {
+  padding: 10px 20px;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+/* Botón rojo */
+.btn-red {
+  background: #b22222;
+}
+.btn-red:hover {
+  background: #8b1a1a;
+}
+
+/* Botón verde oliva */
+.btn-green {
+  background: #556b2f;
+}
+.btn-green:hover {
+  background: #3d4d20;
+}
+
+/* ---- ÍCONOS ---- */
+.icon {
+  font-size: 1.2rem;
+}
