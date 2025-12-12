@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart, faSignOutAlt } from '@fortawesome/free-solid-svg-icons'; 
 
 // Importamos la imagen del logo
-import logo from '../assets/src/logo.png'; 
+import logo from '../assets/logo.png'; 
 
 
 function Navbar() {
