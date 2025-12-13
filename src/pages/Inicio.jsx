@@ -4,12 +4,10 @@ function Inicio() {
   return (
     <>
       <div style={{ textAlign: 'center' }}>
-        <h1>| Disquera Old Money |</h1>
+        <h1 style={{ fontSize: '3.5rem' }}>DISQUERA OLD MONEY</h1>
+        <h2>La música es lo único que puede salvar al mundo.</h2>
         <hr />
         <main>
-          <p>
-            La música es lo único que puede salvar al mundo.
-          </p>
           <p style={{ whiteSpace: 'pre-line' }}>
             <strong>Pura suerte</strong>
             {`
