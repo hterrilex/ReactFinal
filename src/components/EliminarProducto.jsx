@@ -20,11 +20,11 @@ function EliminarProducto() {
       });
      
       if (!respuesta.ok) {
-        throw new Error('Error al eliminar el producto.');
+        throw new Error('Error al eliminar el disco.');
       }
 
 
-      alert('Producto eliminado correctamente.');
+      alert('Disco eliminado correctamente.');
      
      navigate('/productos');
      setTimeout(() => {
@@ -33,7 +33,7 @@ function EliminarProducto() {
      
     } catch (error) {
       console.error(error.message);
-      alert('Hubo un problema al eliminar el producto.');
+      alert('Hubo un problema al eliminar el disco.');
     } finally {
       setCargando(false);
     }
@@ -41,7 +41,7 @@ function EliminarProducto() {
 
   const manejarEliminar = () => {
     const confirmar = window.confirm(
-      `¿Estás seguro de que deseas eliminar el producto "${producto.titulo}"?\n\nEsta acción no se puede deshacer.`
+      `¿Estás seguro de que deseas eliminar el disco "${producto.titulo}"?\n\nEsta acción no se puede deshacer.`
     );
    
     if (confirmar) {
@@ -52,7 +52,7 @@ function EliminarProducto() {
 
   return (
     <div style={{ maxWidth: '500px', margin: '40px auto', padding: '20px', textAlign: 'center' }}>
-      <h2 style={{ color: '#dc3545', marginBottom: '20px' }}>Eliminar Producto</h2>
+      <h2 style={{ color: '#dc3545', marginBottom: '20px' }}>Eliminar disco</h2>
      
       <div style={{
         border: '1px solid #ddd',
@@ -61,10 +61,10 @@ function EliminarProducto() {
         marginBottom: '30px',
         backgroundColor: '#f8f9fa'
       }}>
-        <h3 style={{ color: '#dc3545' }}>¿Estás seguro de que deseas eliminar este producto?</h3>
+        <h3 style={{ color: '#dc3545' }}>¿Estás seguro de que deseas eliminar este disco?</h3>
        
         <div style={{ textAlign: 'left', margin: '20px 0' }}>
-          <p><strong>Titulo:</strong> {producto.titulo}</p>
+          <p><strong>Titulo del Disco:</strong> {producto.titulo}</p>
           <p><strong>Precio:</strong> ${producto.precio}</p>
           <p><strong>Categoría:</strong> {producto.categoria || 'Sin categoría'}</p>
           <p><strong>Descripción:</strong> {producto.descripcion}</p>

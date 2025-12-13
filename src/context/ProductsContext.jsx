@@ -14,12 +14,12 @@ export const ProductsProvider = ({ children }) => {
 
     // titulo
     if (!producto.titulo?.trim()) {
-      errores.titulo = 'El titulo es obligatorio.';
+      errores.titulo = 'El titulo del disco es obligatorio.';
     }
 
     // Autor
     if (!producto.autor?.trim()) {
-      errores.autor = 'El autor es obligatorio.';
+      errores.autor = 'La banda o autor es obligatorio.';
     }
 
     // precio
@@ -63,12 +63,12 @@ export const ProductsProvider = ({ children }) => {
     const cargarProductos = async () => {
       try {
         const respuesta = await fetch('https://693cbec1b762a4f15c414865.mockapi.io/discos');
-        if (!respuesta.ok) throw new Error('Error al cargar productos');
+        if (!respuesta.ok) throw new Error('Error al cargar los discos');
         const datos = await respuesta.json();
         setProductos(datos);
       } catch (error) {
-        console.error('Error al cargar productos:', error);
-        setError("Hubo un problema al cargar los productos.");
+        console.error('Error al cargar los discos:', error);
+        setError("Hubo un problema al cargar los discos.");
       } finally {
         setCargando(false);
       }
@@ -84,12 +84,12 @@ export const ProductsProvider = ({ children }) => {
         body: JSON.stringify(nuevoProducto),
        });
 
-      if (!respuesta.ok) throw new Error('Error al agregar el producto');
+      if (!respuesta.ok) throw new Error('Error al agregar el disco');
        const data = await respuesta.json();
       setProductos(prev => [...prev, data]);
       return data;
     } catch (error) {
-      console.error('Error al agregar producto:', error);
+      console.error('Error al agregar el disco:', error);
        throw error;
     }
   };
@@ -102,7 +102,7 @@ export const ProductsProvider = ({ children }) => {
         body: JSON.stringify(productoActualizado),
       });
 
-      if (!respuesta.ok) throw new Error('Error al editar el producto');
+      if (!respuesta.ok) throw new Error('Error al editar el disco');
 
       const data = await respuesta.json();
       setProductos(prev =>
@@ -112,7 +112,7 @@ export const ProductsProvider = ({ children }) => {
       );
       return data;
     } catch (error) {
-      console.error('Error al editar producto:', error);
+      console.error('Error al editar disco:', error);
       throw error;
     }
   };
