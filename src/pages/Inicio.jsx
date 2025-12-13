@@ -10,9 +10,9 @@ function Inicio() {
           <p>
             La música es lo único que puede salvar al mundo.
           </p>
-          <p>
-            Pura suerte
-
+          <p style={{ whiteSpace: 'pre-line' }}>
+            <strong>Pura suerte</strong>
+            {`
 Que un sueño acabó, ya te dijeron,
 pero no, que todos los sueñitos, no.
 Arrugar no es ir al saladero,
@@ -36,11 +36,12 @@ es pura suerte.
 
 Esto ya
 esto ya no es rock, mi amor
-es pura suerte.
-
+es pura suerte.`}
           </p>
-          <img src="https://cdn.pixabay.com/photo/2018/10/09/19/56/music-3735836_1280.jpg"
-
+          <img 
+            src="https://cdn.pixabay.com/photo/2018/10/09/19/56/music-3735836_1280.jpg"
+            alt="Imagen decorativa música"
+            style={{ maxWidth: '100%', width: '500px', height: 'auto', marginTop: '20px', borderRadius: '8px' }}
           />
         </main>
       </div>
