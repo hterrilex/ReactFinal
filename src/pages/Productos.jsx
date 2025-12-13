@@ -51,7 +51,7 @@ const ProductoItem = ({ producto, esAdmin, onEditar, onEliminar, onAgregarCarrit
       src={producto.avatar} 
       alt={producto.titulo} 
       className="card-img-top" 
-      style={{ height: '300px', width: '100%', objectFit: 'cover' }}
+      style={{ height: '250px', width: '100%', objectFit: 'cover' }}
       onError={(e) => e.target.src = "https://via.placeholder.com/300x200?text=Imagen+no+disponible"}
     />
     
@@ -69,7 +69,7 @@ const ProductoItem = ({ producto, esAdmin, onEditar, onEliminar, onAgregarCarrit
         
         {/* BOTÓN VER DETALLES  */}
         <Link to={`/productos/${producto.id}`} state={{producto}} className="btn btn-details">
-          Ver detalles
+          + Info
         </Link>
         
         {/* BOTÓN COMPRAR  */}
