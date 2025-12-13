@@ -51,6 +51,7 @@ const ProductoItem = ({ producto, esAdmin, onEditar, onEliminar, onAgregarCarrit
       src={producto.avatar} 
       alt={producto.titulo} 
       className="card-img-top" 
+      style={{ height: '250px', width: '100%', objectFit: 'cover' }}
       onError={(e) => e.target.src = "https://via.placeholder.com/300x200?text=Imagen+no+disponible"}
     />
     
