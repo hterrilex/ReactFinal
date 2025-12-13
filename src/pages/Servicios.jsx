@@ -62,7 +62,7 @@ import { Link } from "react-router-dom";
 function Servicios() {
   const servicios = [
     {
-      icon: "https://cdn-icons-png.flaticon.com/512/29/29302.png",
+      icon: "https://cdn-icons-png.flaticon.com/512/222/222586.png",
       titulo: "Venta de discos",
       texto: "Físicos y digitales con amplia variedad de géneros.",
     },

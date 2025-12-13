@@ -47,7 +47,12 @@ const ProductoItem = ({ producto, esAdmin, onEditar, onEliminar, onAgregarCarrit
   // La lista ahora contiene <div> que actúan como cards
   <li className="card"> 
     {/* 1. Imagen - Mantenemos la etiqueta <img> */}
-    <img src={producto.avatar} alt={producto.titulo} className="card-img-top" />
+    <img 
+      src={producto.avatar} 
+      alt={producto.titulo} 
+      className="card-img-top" 
+      onError={(e) => e.target.src = "https://via.placeholder.com/300x200?text=Imagen+no+disponible"}
+    />
     
     {/* 2. Cuerpo de la Card - Contenedor para título, descripción, precio */}
     <div className="card-body">
