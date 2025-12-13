@@ -25,7 +25,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="navbar">
+    <nav className="navbar" style={{ backgroundColor: '#004d4d' }}>
       <div className="navbar-container">
         
         {/* 1. IZQUIERDA: LOGO */}
