@@ -173,7 +173,7 @@ function FormularioProducto() {
             border: `1px solid ${errores.titulo ? 'red' : '#ccc'}`,
             borderRadius: '4px'
           }}
-          placeholder="Ingrese el titulo del libro"
+          placeholder="Ingrese el titulo del disco"
         />
         {errores.titulo && <p style={{ color: 'red', margin: '5px 0', fontSize: '14px' }}>{errores.titulo}</p>}
       </div>
@@ -195,7 +195,7 @@ function FormularioProducto() {
             border: `1px solid ${errores.titulo ? 'red' : '#ccc'}`,
             borderRadius: '4px'
           }}
-          placeholder="Ingrese el autor del libro"
+          placeholder="Ingrese el autor del disco"
         />
         {errores.autor && <p style={{ color: 'red', margin: '5px 0', fontSize: '14px' }}>{errores.autor}</p>}
       </div>

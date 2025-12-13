@@ -1,6 +1,6 @@
 /* ===== NAVBAR ===== */
 nav {
-  background-color:darkolivegreen;
+  background-color:rgb(103, 107, 47);
   padding: 1rem 2rem;
   box-shadow: 0px 0px 2px 1px black;
 }
@@ -25,7 +25,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(227, 135, 135, 0.2);
   transform: translateY(-2px);
 }
 
@@ -123,13 +123,13 @@ main {
     flex-grow: 1;
     
     /* Color de tu NAVBAR (darkolivegreen) para "Ver Detalles" */
-    background-color: #B22222; 
+    background-color: #b29c22; 
     color: white;
-    border: 1px solid #B22222;
+    border: 1px solid #b29c22;
 }
 
 .btn-details:hover {
-    background-color: #556b2f; /* Un poco más oscuro */
+    background-color: #517d05; /* Un poco más oscuro */
 }
 
 /* BOTÓN "COMPRAR" (Verde) */
@@ -183,7 +183,7 @@ main {
 }
 /* ... y el resto de los :hover de ADMIN ... */
 .btn-eliminar:hover {
-  background: #B22222;
+  background: #d88f08;
   color: white;
   box-shadow: 5 0 6px rgba(0, 0, 0, 0.2); /* Shadow negro con blur */
   transform: translateY(-1px);

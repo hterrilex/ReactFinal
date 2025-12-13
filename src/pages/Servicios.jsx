@@ -6,7 +6,7 @@
 //   const servicios = [
 //     {
 //       icon: "https://cdn-icons-png.flaticon.com/512/29/29302.png",
-//       texto: "Venta de libros físicos y digitales",
+//       texto: "Venta de discos físicos y digitales",
 //     },
 //     {
 //       icon: "https://cdn-icons-png.flaticon.com/512/891/891462.png",
@@ -63,7 +63,7 @@ function Servicios() {
   const servicios = [
     {
       icon: "https://cdn-icons-png.flaticon.com/512/29/29302.png",
-      titulo: "Venta de Libros",
+      titulo: "Venta de discos",
       texto: "Físicos y digitales con amplia variedad de géneros.",
     },
     {

@@ -43,7 +43,7 @@ const formatearMoneda = (numero) => {
       <h2>Carrito de Compras</h2>
 
       {carrito.length === 0 ? (
-        <p>El carrito está vacío. ¡Añade algunos libros!</p>
+        <p>El carrito está vacío. ¡Añade algunos discos!</p>
       ) : (
         <>
           {carrito.map((item) => {
