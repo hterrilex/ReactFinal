@@ -36,7 +36,6 @@ function Navbar() {
         {/* 2. CENTRO: LINKS PRINCIPALES */}
         <ul className="navbar-links">
           <li><Link to="/" className="nav-link">Inicio</Link></li>
-          <li><Link to="/servicios" className="nav-link">Servicios</Link></li>
           <li><Link to="/productos" className="nav-link">Productos</Link></li>
           
           {/* Link solo para Admin */}
