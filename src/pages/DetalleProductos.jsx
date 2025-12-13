@@ -19,7 +19,7 @@ if (!producto) {
  
   return(
     <>
-    <h2>Detalles del Producto {producto.titulo}</h2>
+    <h2>Info del Album :  {producto.titulo}</h2>
     <ul>
         <li key={producto.id}>
             {producto.titulo}

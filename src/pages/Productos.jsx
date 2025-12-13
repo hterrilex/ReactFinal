@@ -51,7 +51,7 @@ const ProductoItem = ({ producto, esAdmin, onEditar, onEliminar, onAgregarCarrit
       src={producto.avatar} 
       alt={producto.titulo} 
       className="card-img-top" 
-      style={{ height: '275px', width: '100%', objectFit: 'cover' }}
+      style={{ height: '300px', width: '100%', objectFit: 'cover' }}
       onError={(e) => e.target.src = "https://via.placeholder.com/300x200?text=Imagen+no+disponible"}
     />
     
@@ -60,7 +60,7 @@ const ProductoItem = ({ producto, esAdmin, onEditar, onEliminar, onAgregarCarrit
       <h5 className="card-title">{producto.titulo}</h5> {/* Usamos producto.titulo */}
       
       {/* Usamos el nombre del producto de tu código, aunque el JSON usaba titulo */}
-      <p className="card-text">Autor: {producto.autor}</p> 
+      <p className="card-text">Banda o Artista: {producto.autor}</p> 
       
       <p className="card-text-price"><strong>Precio: ${producto.precio}</strong></p>
       
