@@ -14,7 +14,7 @@ export default function IniciarSesion() {
   const manejarEnvio = (e) => {
     e.preventDefault();
 
-    if (formulario.nombre === "admin" && formulario.email === "1234@admin") {
+    if (formulario.nombre === "admin" && formulario.email === "admin@admin") {
       localStorage.setItem("authEmail", formulario.email);
       iniciarSesion("admin");
       navigate("/dashboard");
@@ -32,7 +32,7 @@ export default function IniciarSesion() {
         navigate("/productos");
       }
     } else {
-      alert("Credenciales de administrador incorrectas. Usa: admin / 1234@admin");
+      alert("Credenciales de administrador incorrectas. Usa: admin / admin@admin");
     }
   };
 
@@ -84,22 +84,19 @@ export default function IniciarSesion() {
     
         {/* Contenedor Izquierdo: Usuario Común */}
         <div className="credenciales-izquierda">
-        <strong>Usuario común:</strong> 
-        <br />
-        Nombre: usuario 
-        <br />
-        Correo Electronico: prueba@correo.com
+        <strong>Usuario:</strong> 
+        user 
+        <br/>
+        Correo Electronico: user@correo.com
         </div>
-    
+        <br/>
         {/* Contenedor Derecho: Administrador */}
         <div className="credenciales-derecha">
-        <strong>Admin:</strong>
-        <br />
-        Nombre: admin 
-        <br />
-        Correo Electronico: 1234@admin
-        </div>
-    
+        <strong>Administrador:</strong>
+        admin 
+        <br/>
+        Correo Electronico: admin@admin
+        </div>    
        </div>
       </div>
     </div>
