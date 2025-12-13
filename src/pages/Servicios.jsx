@@ -74,22 +74,22 @@ function Servicios() {
     {
       icon: "https://cdn-icons-png.flaticon.com/512/1802/1802977.png",
       titulo: "Búsqueda Especial",
-      texto: "Localizamos títulos difíciles de conseguir.",
+      texto: "Localizamos títulos difíciles de conseguir o importados.",
     },
     {
       icon: "https://cdn-icons-png.flaticon.com/512/3145/3145784.png",
-      titulo: "Regalos Literarios",
+      titulo: "Regalos",
       texto: "Recomendaciones y kits personalizados.",
     },
     {
       icon: "https://cdn-icons-png.flaticon.com/512/1250/1250678.png",
-      titulo: "Reservas Exclusivas",
+      titulo: "Recitales y conciertos",
       texto: "Acceso a preventas y lanzamientos anticipados.",
     },
     {
       icon: "https://cdn-icons-png.flaticon.com/512/1077/1077976.png",
       titulo: "Asesoramiento",
-      texto: "Para instituciones y compras al por mayor.",
+      texto: "Para particulares y compras al por mayor.",
     },
   ];
 
